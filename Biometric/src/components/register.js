@@ -108,7 +108,7 @@ function Register() {
         />
         <input
           type="text"
-          placeholder="Enter Member NYU ID"
+          placeholder="Enter Member ID"
           value={id}
           className = "inputarea"
           onChange={(e) => setid(e.target.value)}
@@ -122,7 +122,7 @@ function Register() {
         />
         <input
           type="text"
-          placeholder="Student / Staff"
+          placeholder="Member Type"
           value={status}
           className = "inputarea"
           onChange={(e) => setstatus(e.target.value)}
