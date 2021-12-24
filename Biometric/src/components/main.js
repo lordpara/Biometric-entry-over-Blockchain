@@ -100,7 +100,7 @@ function Main(){
         <h5>INFORMATION</h5>
         <div className="infoarea">
         <p>Name: {data["Name"]}</p>
-        <p>NYU ID: {data["ID"]}</p>
+        <p>Member ID: {data["ID"]}</p>
         <p>Department: {data["Department"]}</p>
         <p>Status: {data["Type"]}</p>
         <p>Vaccination Status:{data["Vaccination_Status"]}</p>
